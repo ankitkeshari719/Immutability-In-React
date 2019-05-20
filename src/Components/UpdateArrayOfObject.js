@@ -11,6 +11,9 @@ export default class UpdateArrayOfObject extends Component {
     ]
   };
 
+  /**
+   * Update Object of an array of which fieldName = cityId
+   */
   handleClick = () => {
     var newData = this.state.data.map(el => {
       if (el.fieldName === "cityId")

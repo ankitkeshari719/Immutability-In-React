@@ -1,12 +1,17 @@
 import React, { Component } from "react";
-import { UpdateArrayOfObject, UpdateNestedObject } from "./Components";
+import {
+  UpdateArrayOfObject,
+  UpdateNestedObject,
+  UpdateObjectByKey
+} from "./Components";
 
 class App extends Component {
   render() {
     return (
       <div>
         {/* <UpdateArrayOfObject /> */}
-        <UpdateNestedObject />
+        {/* <UpdateNestedObject /> */}
+        <UpdateObjectByKey />
       </div>
     );
   }

@@ -15,14 +15,14 @@ export default class UpdateNestedObject extends Component {
   };
 
   /**
-   * Update Simple Object
+   * Update Simple Object  => flag
    */
   updateSimpleObjectDatahandler = () => {
     this.setState({ flag: !this.state.flag });
   };
 
   /**
-   * Update One Level Nested Object
+   * Update One Level Nested Object => age
    */
   updateOneLevelNestedDatahandler = () => {
     let newLiz = {
@@ -36,7 +36,7 @@ export default class UpdateNestedObject extends Component {
   };
 
   /**
-   * Update two Level Nested Object
+   * Update two Level Nested Object =>  city
    */
   updateTwoLevelNestedDatahandler = () => {
     let newLiz = {
