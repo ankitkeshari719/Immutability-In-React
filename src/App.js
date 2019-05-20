@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { UpdateArrayOfObject, UpdateObject } from "./Components";
+import { UpdateArrayOfObject, UpdateNestedObject } from "./Components";
 
 class App extends Component {
   render() {
     return (
       <div>
         {/* <UpdateArrayOfObject /> */}
-        <UpdateObject />
+        <UpdateNestedObject />
       </div>
     );
   }

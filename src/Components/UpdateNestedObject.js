@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class UpdateObject extends Component {
+export default class UpdateNestedObject extends Component {
   state = {
     liz: {
       name: "Liz",
