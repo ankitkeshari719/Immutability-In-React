@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import {
   UpdateArrayOfObject,
   UpdateNestedObject,
-  UpdateObjectByKey
+  UpdateObjectByKey,
+  AddElementToArray
 } from "./Components";
 
 class App extends Component {
@@ -11,7 +12,8 @@ class App extends Component {
       <div>
         {/* <UpdateArrayOfObject /> */}
         {/* <UpdateNestedObject /> */}
-        <UpdateObjectByKey />
+        {/* <UpdateObjectByKey /> */}
+        <AddElementToArray />
       </div>
     );
   }
