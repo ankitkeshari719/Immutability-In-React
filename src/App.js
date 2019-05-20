@@ -6,6 +6,7 @@ class App extends Component {
       { fieldName: "title", valid: false },
       { fieldName: "description", valid: true },
       { fieldName: "cityId", valid: false },
+      { fieldName: "streetId", valid: false },
       { fieldName: "hostDescription", valid: false }
     ]
   };
